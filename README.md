@@ -16,12 +16,15 @@ To verify the validity of our method, 1000 human complete mitochondrial sequence
 We experimented our method deepDNA on 1000 human complete mitochondrial genome sequences and random split it into three datasets: 70\% training set, 20\% validation set and 10\% test set.
 
 
-### File function
-readSplice.py: data processing file. It randomly select 1000 human complete mitochondrial genome sequences from downloaded MITOMAP dataset and random split it into three parts (70\% training set, 20\% validation set and 10\% test set) and save them into files.
+## File function
+### readSplit.py
+-Data processing file. It randomly select 1000 human complete mitochondrial genome sequences from downloaded MITOMAP dataset and random split it into three parts (70\% training set, 20\% validation set and 10\% test set) and save them into files.
 
-train_dataset.py: train the deepDNA model parameters using training dataset.
+### train_dataset.py
+Train the deepDNA model parameters using training dataset.
 
-test_dataset.py: test the deepDNA model using test dataset.
+### test_dataset.py
+Test the deepDNA model using test dataset.
 
     
 ## License
