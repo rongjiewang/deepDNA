@@ -17,7 +17,7 @@ We experimented our method deepDNA on 1000 human complete mitochondrial genome s
 
 
 ## File function
-### readSplit.py
+### dataSplit.py
 Data processing file. It randomly select 1000 human complete mitochondrial genome sequences from downloaded MITOMAP dataset and random split it into three parts (70\% training set, 20\% validation set and 10\% test set) and save them into files.
 
 ### train_dataset.py
