@@ -42,6 +42,6 @@ for i in test:
 	test_record.append(read)
 
 #save the data
-SeqIO.write(train_record, "./train.fasta", "fasta")
-SeqIO.write(valid_record, "./valid.fasta", "fasta")
-SeqIO.write(test_record, "./test.fasta", "fasta")
+SeqIO.write(train_record, "./data/train.fasta", "fasta")
+SeqIO.write(valid_record, "./data/valid.fasta", "fasta")
+SeqIO.write(test_record, "./data/test.fasta", "fasta")
