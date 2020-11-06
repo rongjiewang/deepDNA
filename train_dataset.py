@@ -22,9 +22,9 @@ from Bio import SeqIO
 from keras.callbacks import EarlyStopping
 early_stopping = EarlyStopping(monitor='val_loss', patience=2)
 np.random.seed(1337) # for reproducibility
-train_path = './train.fasta'
-valid_path = './valid.fasta'
-test_path = './test.fasta'
+train_path = './data/train.fasta'
+valid_path = './data/valid.fasta'
+test_path = './data/test.fasta'
 
 
 chars = "ACGT"
